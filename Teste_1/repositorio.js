@@ -1,5 +1,3 @@
-const { inherits } = require("node:util");
-
-var a = "Alterei";
+var a = "4 alteração";
 
 console.log(a);
