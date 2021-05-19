@@ -1,5 +1,5 @@
 const { inherits } = require("node:util");
 
-var a = "Meu código";
+var a = "Alterei";
 
 console.log(a);
