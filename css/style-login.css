@@ -1,0 +1,178 @@
+.login {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #cfcaca;
+}
+
+.login-container {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #808080;
+  background: -webkit-linear-gradient(bottom, #808080, #dcdcdc);
+  background: -o-linear-gradient(bottom, #808080, #dcdcdc);
+  background: -moz-linear-gradient(bottom, #808080, #dcdcdc);
+  background: linear-gradient(bottom, #808080, #dcdcdc);
+  opacity: 0.9;
+  margin: 0 auto;
+}
+
+.login-form {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.login-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #ffffff;
+  border: 4px solid #75e4b3;
+}
+
+.login-avatar img {
+  width: 100%;
+}
+
+.login-username {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.inputs {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #333;
+  display: block;
+  width: 120%;
+  background: #fff;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px 0 53px;
+}
+
+.login-user-icon {
+    font-size: 15px;
+    color: #999;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    pointer-events: none;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+
+.icon {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-user:before {
+    content: "\f007";
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Montserrat-Regular, sans-serif;
+ 
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+div {
+  display: block;
+}
+
+input {
+    outline: none;
+    border: none;
+    -webkit--mode: horizontal-tb !important;
+    text-decoration-color: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
