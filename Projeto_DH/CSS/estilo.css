@@ -1,0 +1,16 @@
+#container{
+    background-color: aqua;
+    width: 500px;
+    height: 250px;
+    border: black;
+    margin: 0 auto;
+}
+
+.forms{
+
+    text-align: center;
+    padding: 10px;
+
+  
+
+}
