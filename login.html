@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="CSS\estilo.css">
+
+
+    </head>
+
+
+    <body>
+
+        <!--Barra-->
+        <div id="barra">
+            <div>
+                <img src="IMG/logo.png" width="80px" height="70px">
+            </div>
+
+           
+            <div class="item">
+                <a href="index.html">
+                    Home
+                </a>
+            </div>
+            <div class="item">
+                <a href="tutores.html">
+                    Tutores
+                </a>
+            </div>
+            <div class="item">
+                <a href="profe.html">
+                    Seja um Professor
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="cursos.html">
+                    Cursos
+                </a>
+            </div>
+
+
+            <div class="item">
+                <a href="login.html">
+                    Login
+                </a>
+            </div>
+            
+        </div>
+
+        <div>
+            <img class="teacher" src="IMG/teacher.png">
+        </div>
+     
+        
+        <!--Tela Login-->
+       
+        <!--Container Central-->
+        <div id="container">
+
+            <div>
+                <img src="Icon/user.png" id="userImg">
+            </div>
+
+            <!--Input-->
+
+            <div>
+
+                <form id="mod" action="login.html">
+                                        
+                    <label class="labelText">
+                        Login
+                    </label>
+                    <br>
+                    <input type="email" class="forms" name="email" id="testName">
+                    <br>
+    
+                    <label class="labelText">
+                        Senha
+                    </label>
+                    <br>
+                    <input type="password" class="forms" name="senha">
+                    <br>
+    
+                    <button class="btnAcessar" type="submit" onclick="auth()">Login</button>
+    
+                    <button class="btnAcessar">Inscreva-se</button>
+    
+                </form>
+    
+
+            </div>
+            
+
+
+        </div>
+
+
+    <!--Script-->
+    <script>
+
+        function auth(){
+
+            var a = document.getElementById("testName").value;
+
+        if(a == "admin@admin"){
+
+
+            document.getElementById("mod").action = "intranet.html";
+
+
+        }
+
+
+            
+        }
+
+        
+    </script>
+
+    
+
+    </body>
+
+</html>
