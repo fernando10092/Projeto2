@@ -1,0 +1,93 @@
+<!--Barra Compartilhada-->
+<%- include('./partials/header') %>
+
+
+<!--Tela Login-->
+
+<body class="bodyBackground">
+
+<!--Container Central-->
+<div id="container">
+
+    <div>
+        <img src="Icon/perfil-de-usuario.png" id="userImg">
+    </div>
+
+    <!--Input-->
+
+    <div>
+
+        <form id="mod" action="login.html">
+                                
+            <label class="labelText">
+                E-mail
+            </label>
+            <br>
+            <input type="email" class="forms" name="email" id="testName">
+            <br>
+
+            <label class="labelText">
+                Senha
+            </label>
+            <br>
+            <input type="password" class="forms" name="senha">
+            <br>
+
+            <button class="btnAcessar" type="submit" onclick="auth()">Login</button>
+
+            <button class="btnAcessar">Inscreva-se</button>
+
+            <br>
+
+            <label class="labelText2">
+                Esqueceu ?
+            </label>
+
+        </form>
+
+        <hr>
+
+        <span>
+
+            <img src="Icon/facebook.png" width="40px" height="40px" class="logoAuth">
+           
+            <img src="Icon/google.png" width="40px" height="40px" class="logoAuth">
+            
+
+        </span>
+
+
+    </div>
+    
+
+
+</div>
+
+
+<!--Script-->
+<script>
+
+function auth(){
+
+    var a = document.getElementById("testName").value;
+
+if(a == "admin@admin"){
+
+
+    document.getElementById("mod").action = "intranet.html";
+
+
+}
+
+
+    
+}
+
+
+</script>
+
+
+
+</body>
+
+</html>

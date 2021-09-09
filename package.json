@@ -1,0 +1,24 @@
+{
+  "name": "Projeto_DH",
+  "version": "1.0.0",
+  "description": "Plataforma de facilitação do contato entre alunos e professores/profissionais de diversas áreas de conhecimento.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernando10092/Projeto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernando10092/Projeto/issues"
+  },
+  "homepage": "https://github.com/fernando10092/Projeto#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

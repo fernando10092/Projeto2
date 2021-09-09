@@ -1,0 +1,123 @@
+<!--Barra Compartilhada-->
+<%- include('./partials/header') %>
+
+
+<!--Tela Login-->
+
+<body class="bodyBackground">
+
+<!--Container Central-->
+<div id="container2">
+
+    <div id="cadTitle">
+        <img src="Icon/formulario-de-contato.png" id="userImg2">
+        <span> Cadastre-se e comece a ensinar</span>
+    </div>
+
+
+
+    <!--Input-->
+
+    <div>
+
+        <form id="mod" action="login.html">
+                                
+            <label class="labelText">
+                Nome
+            </label>
+            <br>
+            <input type="email" class="forms" name="email" id="testName">
+            <br>
+
+            <label class="labelText">
+                CPF
+            </label>
+            <br>
+            <input type="password" class="forms" name="senha">
+            <br>
+
+            <label class="labelText">
+                Data de Nascimento
+            </label>
+            <br>
+            <input type="password" class="forms" name="senha">
+            <br>
+
+            <label class="labelText">
+                Sexo
+            </label>
+            <br>
+            <input type="password" class="forms" name="senha">
+            <br>
+
+            <label class="labelText">
+                E-mail
+            </label>
+            <br>
+            <input type="password" class="forms" name="senha">
+            <br>
+
+            <label class="labelText">
+                Criar Senha
+            </label>
+            <br>
+            <input type="password" class="forms" name="senha">
+            <br>
+
+            <button class="btnAcessar" type="submit" onclick="auth()">Limpar</button>
+
+            <button class="btnAcessar">Cadastre-se</button>
+
+            <br>
+
+        
+
+        </form>
+
+        <hr>
+
+        <span>
+
+            <img src="Icon/facebook.png" width="40px" height="40px" class="logoAuth">
+           
+            <img src="Icon/google.png" width="40px" height="40px" class="logoAuth">
+            
+
+        </span>
+
+
+    </div>
+    
+
+
+</div>
+
+
+<!--Script-->
+<script>
+
+function auth(){
+
+    var a = document.getElementById("testName").value;
+
+if(a == "admin@admin"){
+
+
+    document.getElementById("mod").action = "/intranet";
+
+
+}
+
+
+    
+}
+
+
+</script>
+
+<!--Rodapé-->
+<%- include('./partials/footer') %>
+
+</body>
+
+</html>

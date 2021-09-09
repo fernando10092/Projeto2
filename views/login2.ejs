@@ -1,0 +1,45 @@
+<%- include('./partials/header') %>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/stylelogin.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      data-auto-a11y="true"></script>
+</head>
+<body id="body2">
+    <main class="container">
+        <h2>Login</h2>
+            <form action="">
+                <div class="input-field">
+                    <input type="text" name="username" autocomplete="off" id="username" placeholder="Enter your Username">
+                    <div class="underline"></div>
+                </div>
+                <div class="input-field">
+                    <input type="password" name="password" id="password" placeholder="Enter your Password">
+                    <div class="underline"></div>
+                </div>
+
+                <input type="submit" value="Continue">
+            </form>
+
+            <div class="footer">
+                <span>Or Connect With Social Media</span>
+                <div class="social-fields">
+                    <div class="social-field twitter">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                            Sign in with Twitter
+                        </a>
+                    </div>
+                    <div class="social-field facebook">
+                        <a href="https://m.facebook.com/login/?locale=pt_BR">
+                            <i class="fab fa-facebook-f"></i>
+                            Sign in with Facebook
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </main>
+</body>
+</html>

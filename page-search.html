@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensei | pesquisa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/page-search.css">
+
+</head>
+
+<body id="page-search">
+
+    <div id="container">
+        <header class="page-header">
+            <div class="top-bar-container">
+
+                <a href="./index.html">
+                    <img src="./asset/image/home.svg" alt="Voltar">
+                </a>
+
+                <a class="header-perfil-content">
+                    <img src="./asset/image/boruto.svg" alt="Perfil-Boruto">
+                    <p>Boruto</p>
+                </a>
+
+            </div>
+
+            <div class="header-content">
+
+                <strong>
+                    Senseis
+                    <br>
+                    Disponíveis
+                </strong>
+
+                <form id="search-senseis">
+
+                    <div class="input-block">
+
+                        <label for="name-sensei">Nome do Sensei</label>
+
+                        <input name="name-sensei" id="name-sensei" type="text">
+
+                    </div>
+
+                    <div class="select-block">
+                        <label for="subject">Matéria</label>
+                        <select name="subject" id="subject">
+                            <option value="" disabled="">Selecione uma matéria</option>
+                            <option value="1">Programação</option>
+                            <option value="2">Biologia</option>
+                            <option value="3">Ciências</option>
+                            <option value="4">Educação Física</option>
+                            <option value="5">Física</option>
+                            <option value="6">Geografia</option>
+                            <option value="7">História</option>
+                            <option value="8">Matemática</option>
+                            <option value="9">Português</option>
+                            <option value="10">Química</option>
+                            <option value="11">Artes</option>
+
+                        </select>
+                    </div>
+
+                    <button type="submit">
+                        Buscar
+                    </button>
+
+                </form>
+            </div>
+
+        </header>
+
+        <main>
+
+            <article class="senseis-item">
+
+                <header>
+                    <img src="./asset/image/kakashi.svg" alt="Kakashi-Sensei">
+
+                    <div>
+                        <strong>Kakashi Sensei</strong>
+
+                        <span>Programação</span>
+                    </div>
+
+                </header>
+
+                <p>
+                    Aprenda as mais de 1001 técnicas do mercado de programação.
+                </p>
+
+                <footer>
+                    <button type="button">
+                        Assistir as aulas
+                    </button>
+                </footer>
+
+            </article>
+
+            <article class="senseis-item">
+
+                <header>
+                    <img src="./asset/image/minato-sensei.svg" alt="Kakashi-Sensei">
+
+                    <div>
+                        <strong>Minato Sensei</strong>
+
+                        <span>História</span>
+                    </div>
+
+                </header>
+
+                <p>
+                    Venha aprender a se tornar o sumidão da História.
+                </p>
+
+                <footer>
+                    <button type="button">
+                        Assistir as aulas
+                    </button>
+                </footer>
+
+            </article>
+
+            <article class="senseis-item">
+
+                <header>
+                    <img src="./asset/image/sakura-sensei.svg" alt="Sakura Sensei">
+
+                    <div>
+                        <strong>Sakura Sensei</strong>
+
+                        <span>Biologia</span>
+                    </div>
+
+                </header>
+
+                <p>
+                    Se torne um grande biólogo com aulas que vão te tornar o melhor de todos. Shanaro!
+                </p>
+
+                <footer>
+                    <button type="button">
+                        Assistir as aulas
+                    </button>
+                </footer>
+
+            </article>
+
+            <article class="senseis-item">
+
+                <header>
+                    <img src="./asset/image/naruto-sensei.svg" alt="Naruto Sensei">
+
+                    <div>
+                        <strong>Naruto Sensei</strong>
+
+                        <span>Filosofia</span>
+                    </div>
+
+                </header>
+
+                <p>
+                    Nunca volte atrás do seu caminho ninja.
+                </p>
+
+                <footer>
+                    <button type="button">
+                        Assistir as aulas
+                    </button>
+                </footer>
+
+            </article>
+
+        </main>
+
+    </div>
+
+</body>
+
+
+</html>

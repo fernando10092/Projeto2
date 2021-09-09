@@ -1,0 +1,332 @@
+body{
+    background-color: #FFFFE0;
+}
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: wheat;
+    text-decoration: none;
+  }
+
+
+#container{
+ 
+    background-color: #FFFAFA;
+    width: 70%;
+    height: 450px;
+    border: black;
+   
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+#container2{
+ 
+    background-color: #FFFAFA;
+    width: 70%;
+    height: 600px;
+    border: black;
+   
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.forms{
+
+    text-align: center;
+    width: 315px;
+    height: 30px;
+   
+}
+
+#userImg{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 45px;
+    
+}
+
+#userImg2{
+
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 45px;
+    
+}
+
+.btnAcessar{
+    margin-top: 10px;
+    width: 160px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 5%;
+    background-color: #836FFF;
+    border: none;
+    color: azure;
+    cursor: pointer;
+}
+
+.btnAcessar:hover{
+    margin-top: 10px;
+    width: 160px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 5%;
+    background-color: #6495ED;
+    border: none;
+    color: azure;
+    cursor: pointer;
+}
+
+.labelText{
+
+    color: black;
+    font-weight: bold;
+   
+}
+
+.labelText2:hover{
+
+    color: blue;
+    cursor: pointer;
+}
+
+#barra{
+    display: flex;
+    background: #1E90FF;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+}
+.item{
+
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #1E90FF;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    color: burlywood;  
+    
+
+}
+
+a:hover{
+    color: coral;
+}
+
+#menus{
+    width: 800px;
+}
+
+#sobrePor{
+
+    margin: 0 auto;
+    position: absolute;
+    left: 25px;
+    right: 25px;
+    top: 400px;
+    border-radius: 1%;
+    display: flex;
+    background: #F5F5F5;
+    width: 89%;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #F5F5F5;
+    padding: 10px;
+  }
+
+.grid-item {
+    background-color: #778899;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-color: cadetblue;
+    width: 350px;
+    border: ridge;
+
+  }
+
+#searching{
+
+    margin: 0 auto;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 250px;
+    height: 40px;
+    font-weight: bold;
+    size: 24px;
+
+}
+
+#btnSearching{
+
+    margin: 0 auto;
+    position: absolute;
+    left: 308px;
+    top: 100px;
+    width: 80px;
+    height: 46px;
+    background-color: #5959bd;
+    color: whitesmoke;
+    border: none;
+    
+}
+#btnSearching{
+
+    margin: 0 auto;
+    position: absolute;
+    left: 308px;
+    top: 100px;
+    width: 80px;
+    height: 46px;
+    background-color: #5959bd;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.listaCursos{
+
+    background: white;
+    width: 250px;
+    height: 150px;
+    margin: 30px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.sc1{
+    
+    background: white;
+    width: 350px;
+    height: 180px;
+    margin: 30px;
+}
+
+.sc1:hover{
+    background: white;
+    width: 350px;
+    height: 180px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.teacher{
+    float: left;
+    width: 400px;
+    height: 400px;
+    padding-left: 100px;
+}
+
+#menuIntra {
+
+    color: black;
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 300px;
+    float: left;
+
+}
+
+.menuIntra2 {
+
+    background-color: #00FFFF;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    
+
+}
+
+.intraPessoa{
+    float: left;
+    
+}
+
+
+#formProfCadastro{
+    margin: 0 auto;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.inpProfCadastro{
+    width: 250px;
+    height: 20px;
+    margin: 10px;
+}
+
+.bodyBackground{
+    background-color: #D3D3D3;
+}
+
+.logoAuth{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.logoAuth{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#rodape{
+
+    margin-top: 410px;
+    background-color: #363636;
+    width: 100%;
+    height: 300px;
+}
+
+.infoFooter{
+
+    padding-top: 30px;
+    margin: 30px;
+    color: blanchedalmond;
+
+}
+
+#copyRight{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+#cadTitle{
+    text-align: center;
+    font-size: 26px;
+
+}

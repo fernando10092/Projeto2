@@ -1,0 +1,8 @@
+npm install ejs
+npm init -y  
+npm install express ejs --save
+
+ou 
+
+npm install express-generator -g
+express --view=ejs nomeProjeto
