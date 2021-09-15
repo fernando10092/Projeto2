@@ -4,7 +4,7 @@ const paginas = require("../controllers/control");
 
 const router = express.Router();
 
-router.use("/index", paginas.index);
+router.use("/", paginas.index);
 
 router.use("/login", paginas.login);
 
