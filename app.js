@@ -12,4 +12,4 @@ app.use("/", rota);
 
 app.get("/teste", (req, res)=>res.send("Deu certo"));
 
-app.listen(80, ()=> console.log("Servidor Rodando na porta 80"));
+app.listen(3333, ()=> console.log("Servidor Rodando na porta 3333"));
